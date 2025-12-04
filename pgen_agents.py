@@ -15,7 +15,7 @@ PGEN Agent System
 - Follow the same Agent / AgentTool API you used earlier.
 """
 
-# ---------- Imports (adjust for your agent SDK) ----------
+# ---------- Imports ----------
 from typing import Dict, Any, List
 from google.adk.agents import Agent, SequentialAgent, ParallelAgent, LoopAgent
 from google.adk.models.google_llm import Gemini
@@ -56,10 +56,9 @@ def record_agent_quality(agent_name: str, metric: str, value: float):
       - 'precision', 'recall', 'SNR_improvement', 'runtime_ms'
       - Helps enforce the Agent Quality program
     """
-    # telemetry.emit({})  # implement with your telemetry tool
     print(f"[QUALITY] {agent_name} | {metric} = {value}")
 
-# ---------- Guppy (Quantinuum) example snippet ----------
+# ---------- Guppy ----------
 guppy_program = r'''
 // Guppy pseudo-code for a quantum-enhanced transform
 // This is a small example; replace with real Guppy syntax per Quantinuum docs.
