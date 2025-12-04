@@ -1,7 +1,7 @@
 # pgen_agents.py
 """
 PGEN Agent System
-- Author: Sim / PGEN
+- Author: Sims
 - Purpose: Orchestrate ingestion, adaptive denoising, hybrid interpretation, RAG knowledge updates,
   real-time routing and outputs for quantum-sensing data.
 - Requirements: Provide implementations for the placeholder tools used below:
