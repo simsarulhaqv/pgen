@@ -1,0 +1,50 @@
+┌────────────────────────────────────────────────────────────┐
+│                   PGEN Quantum-Sensing Agent               │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 1. Data Ingestion & Hardware Awareness Layer               │
+│ - Raw sensor data                                          │
+│ - Noise profiles, drift, calibration logs                  │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 2. Adaptive Noise Correction & Signal Conditioning          │
+│ - Dynamic filtering                                        │
+│ - Drift compensation                                       │
+│ - Feature stabilization                                    │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 3. Hybrid Quantum–Classical Interpretation Loop             │
+│ - Iterative feature extraction                             │
+│ - Multi-path evaluation                                    │
+│ - Early pruning of bad configurations                      │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 4. Agentic RAG + Knowledge Integration                      │
+│ - Physics-informed insights                                 │
+│ - New research ingestion                                    │
+│ - Continuous self-improvement                               │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 5. Real-Time Decision & Routing Layer                       │
+│ - CPU/GPU/Quantum/Edge routing                             │
+│ - Cost-performance optimization                            │
+└────────────────────────────────────────────────────────────┘
+            │
+            ▼
+┌────────────────────────────────────────────────────────────┐
+│ 6. Output Insights & APIs                                   │
+│ - Event detection                                           │
+│ - Cleaned signals                                           │
+│ - Anomaly alerts                                            │
+│ - Analysis dashboards                                       │
+└────────────────────────────────────────────────────────────┘
